@@ -11,7 +11,7 @@ html, body {
   padding: 20px;
   margin: 0 3px;
   border: 2px solid black;
-  border-radius: 9px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
