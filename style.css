@@ -48,3 +48,13 @@ html, body {
   .items-center{
     align-items: center;
   }
+  .container{
+    border: 2px solid rgb(255, 255, 255);
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+  }
