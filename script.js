@@ -6,8 +6,12 @@ Array.from(buttons).forEach((button)=>{
       string = eval(string);
       document.querySelector('input').value = string;
     }
-    else if(e.target.innerHTML == 'C'){
-      string = ""
+    else if(e.target.innerHTML == 'X'){
+      string = Math.floor(string / 10)
+      document.querySelector('input').value = string;
+    }
+    else if(e.target.innerHTML == 'AC'){
+      string = "0"
       document.querySelector('input').value = string;
     }
     else{ 
